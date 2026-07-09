@@ -1,0 +1,18 @@
+{
+  "name": "cuatro-directo",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "resolve": "node ./cuatro-live.mjs --print",
+    "inspect": "node ./cuatro-live.mjs --json --verbose",
+    "list": "node ./cuatro-live.mjs --list",
+    "serve": "node ./cuatro-live.mjs --serve",
+    "play:vlc": "node ./cuatro-live.mjs --player vlc",
+    "play:mpv": "node ./cuatro-live.mjs --player mpv",
+    "play:ffplay": "node ./cuatro-live.mjs --player ffplay"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
