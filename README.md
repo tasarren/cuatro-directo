@@ -1,5 +1,7 @@
 # Cuatro Live Resolver
 
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-Support-FF5E5B?logo=ko-fi&logoColor=white)](https://ko-fi.com/tasarren)
+
 CLI pequeña y sin dependencias para obtener la URL HLS actual del directo de Cuatro, sin tener que dejar la web abierta en el navegador.
 
 El script reproduce la misma cadena de servicios públicos que usa el reproductor web:
@@ -59,3 +61,7 @@ Si la reproducción empieza a devolver EOF después de tener un proxy antiguo ej
 * Las URLs tokenizadas tienen una duración corta.
 * Las URLs de playlist devueltas directamente por la respuesta de entrega pueden devolver `403`; es normal hasta que se añade el sufijo de token de Cerbero.
 * El script no evita DRM ni bloqueos geográficos. Si Cerbero rechaza la solicitud, el error se muestra por pantalla y el script se detiene.
+
+## Apoyo
+
+Un café en [Ko-fi](https://ko-fi.com/tasarren) o una suscripción en [GitHub Sponsors](https://github.com/sponsors/tasarren). Así este proyecto sigue adelante.
